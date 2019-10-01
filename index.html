@@ -21,18 +21,23 @@
 }
 
 .sidenav a:hover {
-  color: purple;
+  color: gray;
 }
 
 .content {
   margin-left: 160px; /* Same as the width of the sidebar */
-  padding: 0px 10px;
-  background-color: white;
+  padding: 10px;
+  color: white;
+}
+body {
+  background-color: #27262b;
 }
 h1 {
   text-align: center;
   background-color: black;
   padding: 1em;
+  width: 100%;
+  margin: -10px;
   color: white;
 }
 footer {
@@ -40,6 +45,9 @@ footer {
   background-color: black;
   padding: 0.5em;
   color: white;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
@@ -55,7 +63,7 @@ footer {
 </head>
 
 <body>
-  <h1 class="white-text">Welcome to Ben Weese.Dev</h1>
+<h1>Welcome to Ben Weese.Dev</h1>
   <div class="sidenav">
     <nav role="navigation">
         <a href="#" class="navigation-list-item">Home</a>
