@@ -2,11 +2,12 @@
   padding: 10px;
   font-size: 20px;
   font-weight: bold;
-  color: white;
 }
-
-.sidenav a:hover {
-  color: red;
+.sidenav {
+  background-color: rgb(64,64,64);
+  padding: 10px;
+  width: 100%;
+  margin-left: -20px;
 }
 
 .content {
@@ -16,10 +17,10 @@
   line-height: 1.5;
   margin-bottom: 50px;
 }
-.content a {
+a {
   color: white;
 }
-.content a:hover {
+a:hover {
   color: red;
 }
 body {
@@ -28,8 +29,8 @@ body {
 header {
   text-align: center;
   background-color: black;
-  padding: 1em;
-  margin: -10px;
+  padding: 1.5em;
+  margin: -15px;
   color: white;
   position: sticky;
   top: 0;
