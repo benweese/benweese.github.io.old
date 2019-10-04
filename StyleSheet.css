@@ -1,51 +1,32 @@
-.sidenav {
-  height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 160px; /* Set the width of the sidebar */
-  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
-  left: 0;
-  background-color: #1d1e22;
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 20px;
-  margin-top: 5.5em;
-  z-index: 1;
-}
-
 .sidenav a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 16px;
+  padding: 10px;
+  font-size: 20px;
   font-weight: bold;
   color: white;
-  display: block;
 }
 
 .sidenav a:hover {
-  color: blue;
+  color: red;
 }
 
 .content {
-  margin-left: 160px; /* Same as the width of the sidebar */
-  margin-top: 100px;
   padding: 25px;
   color: white;
   font-family: sans-serif;
   line-height: 1.5;
 }
 body {
-  background-color: #393939;
+  background-color: #003366;
 }
-h1 {
+header {
   text-align: center;
   background-color: black;
-  position: absolute;
-  top: 0;
   padding: 1em;
-  width: 100%;
   margin: -10px;
   color: white;
-  z-index: 2;
+  position: sticky;
+  top: 0;
+  width: 100%;
 }
 footer {
   text-align: center;
@@ -53,12 +34,7 @@ footer {
   padding: 0.5em;
   margin: -10px;
   color: white;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
-  z-index: 2;
-}
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
 }
