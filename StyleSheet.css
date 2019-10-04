@@ -17,11 +17,19 @@
   line-height: 1.5;
   margin-bottom: 50px;
 }
+
 a {
   color: white;
 }
+
 a:hover {
   color: red;
+}
+
+.img-links {
+  text-decoration:none
+  border: 0 none;
+  padding: 10px;
 }
 body {
   background-color: #003366;
