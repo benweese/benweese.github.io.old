@@ -14,6 +14,7 @@
   color: white;
   font-family: sans-serif;
   line-height: 1.5;
+  margin-bottom: 50px;
 }
 body {
   background-color: #003366;
@@ -34,7 +35,7 @@ footer {
   padding: 0.5em;
   margin: -10px;
   color: white;
-  position: fixed;
   bottom: 0;
+  position: fixed;
   width: 100%;
 }
