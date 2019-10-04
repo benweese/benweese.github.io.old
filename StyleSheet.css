@@ -6,7 +6,7 @@
 }
 
 .sidenav a:hover {
-  color: blue;
+  color: red;
 }
 
 .content {
@@ -24,7 +24,7 @@ header {
   padding: 1em;
   margin: -10px;
   color: white;
-  position: fixed;
+  position: sticky;
   top: 0;
   width: 100%;
 }
