@@ -1,0 +1,23 @@
+{
+  "name": "benweese.dev",
+  "version": "1.0.0",
+  "description": "This is my Github Pages",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benweese/benweese.github.io.git"
+  },
+  "author": "Ben Weese",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/benweese/benweese.github.io/issues"
+  },
+  "homepage": "https://github.com/benweese/benweese.github.io#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jquery": "^3.4.1"
+  }
+}
