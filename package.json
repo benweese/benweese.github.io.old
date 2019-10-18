@@ -2,9 +2,8 @@
   "name": "benweese.dev",
   "version": "1.0.0",
   "description": "This is my Github Pages",
-  "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "http-server"
   },
   "repository": {
     "type": "git",
@@ -15,9 +14,10 @@
   "bugs": {
     "url": "https://github.com/benweese/benweese.github.io/issues"
   },
-  "homepage": "https://github.com/benweese/benweese.github.io#readme",
+  "homepage": "https://benweese.dev",
   "dependencies": {
     "express": "^4.17.1",
+    "http-server": "^0.11.1",
     "jquery": "^3.4.1"
   }
 }

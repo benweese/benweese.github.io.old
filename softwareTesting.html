@@ -4,16 +4,17 @@
 
 <head>
   <title id="title">Software Testing</title>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 </head>
 <header>
   <h1>Software Testing</h1>
   <div class="sidenav">
-    <nav role="navigation">
-        <a href="index.html" class="navigation-list-item">Home</a>
-        <a href="#" class="navigation-list-item">Software Testing</a>
-        <a href="webmaster.html" class="navigation-list-item">Webmaster</a>
-        <a href="podcast.html" class="navigation-list-item">Podcasting</a>
-    </nav>
+    <div id="navigation"></div>
+      <script>
+        $(function(){
+          $("#navigation").load("nav.html");
+        });
+    </script>
   </div>
 </header>
 <body>
@@ -37,16 +38,12 @@
   </div>
 </body>
 <footer>
-  <a href="https://www.linkedin.com/in/benweese/" target="_blank" class="img-links"><img
-    alt="linkedin link" src="icons/Linkedin.png" onmouseover="this.src='icons/linkedinhover.png'"
-    onmouseout="this.src='icons/Linkedin.png'" /></a>
-  <a href="https://www.benweese.com" target="_blank" class="img-links"><img
-    alt="resume link" src="icons/benweese.png"onmouseover="this.src='icons/benweesehover.png'"
-    onmouseout="this.src='icons/benweese.png'" /></a>
-  <a href="https://github.com/benweese" target="_blank" class="img-links"><img
-    alt="github link" src="icons/GitHub.png"onmouseover="this.src='icons/githubhover.png'"
-    onmouseout="this.src='icons/GitHub.png'" /></a>
-  <p><strong>Copyright © 2019 by Ben Weese</strong></p>
+  <div id="foot"></div>
+  <script>
+    $(function(){
+      $("#foot").load("footer.html");
+    });
+  </script>
 </footer>
 
 </html>

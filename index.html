@@ -5,14 +5,18 @@
 
 <head>
   <title>Ben Weese.Dev</title>
-  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-  <script type="text/javascript" src="script.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 </head>
 
 <header>
   <h1>Welcome to Ben Weese.Dev</h1>
   <div class="sidenav">
     <div id="navigation"></div>
+      <script>
+        $(function(){
+          $("#navigation").load("nav.html");
+        });
+    </script>
   </div>
 </header>
 
@@ -31,6 +35,11 @@
 </body>
 <footer>
   <div id="foot"></div>
+  <script>
+    $(function(){
+      $("#foot").load("footer.html");
+    });
+  </script>
 </footer>
 
 </html>
