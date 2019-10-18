@@ -1,22 +1,18 @@
-<link href="StyleSheet.css" rel="stylesheet" type="text/css">
+<link href="css/StyleSheet.css" rel="stylesheet" type="text/css">
 
 <!DOCTYPE html>
 <html>
 
 <head>
-  <title>Ben Weese.Dev</title>
+  <title id="title">Ben Weese.Dev</title>
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/index.js"></script>
 </head>
 
 <header>
   <h1>Welcome to Ben Weese.Dev</h1>
   <div class="sidenav">
     <div id="navigation"></div>
-      <script>
-        $(function(){
-          $("#navigation").load("nav.html");
-        });
-    </script>
   </div>
 </header>
 
@@ -33,18 +29,10 @@
     takes you, I hope you find what you are looking for. If not check out Stack Overflow.</p>
   </div>
 </body>
+
 <footer>
   <div id="foot"></div>
-  <p><strong id='copyright-container'>'Copyright ©2019 Ben Weese'</strong></p>
-  <script>
-    $(function(){
-      $("#foot").load("footer.html");
-    });
-    $(function(){
-      const CURR_YEAR = (new Date()).getFullYear();
-      $("#copyright-container").text('Copyright © ' + CURR_YEAR + ' Ben Weese');
-    });
-  </script>
+  <p><strong id='copyright'>Copyright ©2019 Ben Weese</strong></p>
 </footer>
 
 </html>

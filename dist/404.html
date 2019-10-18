@@ -1,10 +1,10 @@
-<link href="StyleSheet.css" rel="stylesheet" type="text/css">
+<link href="css/StyleSheet.css" rel="stylesheet" type="text/css">
 
 <!DOCTYPE html>
 <html>
 
 <head>
-  <title>Ben Weese.Dev</title>
+  <title id="title">Ben Weese.Dev</title>
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 </head>
 
@@ -25,11 +25,17 @@
   <p>The page you requested could not be found. Try using the navigation to find what you're looking for or go to the <a href="index.html" class="navigation-list-item">Home Page</a>.</p>
   </div>
 </body>
+
 <footer>
   <div id="foot"></div>
+  <p><strong id='copyright-container'>'Copyright ©2019 Ben Weese'</strong></p>
   <script>
     $(function(){
       $("#foot").load("footer.html");
+    });
+    $(function(){
+      const CURR_YEAR = (new Date()).getFullYear();
+      $("#copyright-container").text('Copyright © ' + CURR_YEAR + ' Ben Weese');
     });
   </script>
 </footer>
