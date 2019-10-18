@@ -1,0 +1,43 @@
+<link href="css/StyleSheet.css" rel="stylesheet" type="text/css">
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title id="title">Ben Weese.Dev</title>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+</head>
+
+<header>
+  <h1>404 Page Not Found</h1>
+  <div class="sidenav">
+    <div id="navigation"></div>
+      <script>
+        $(function(){
+          $("#navigation").load("nav.html");
+        });
+    </script>
+  </div>
+</header>
+
+<body>
+  <div class="content">
+  <p>The page you requested could not be found. Try using the navigation to find what you're looking for or go to the <a href="index.html" class="navigation-list-item">Home Page</a>.</p>
+  </div>
+</body>
+
+<footer>
+  <div id="foot"></div>
+  <p><strong id='copyright-container'>'Copyright ©2019 Ben Weese'</strong></p>
+  <script>
+    $(function(){
+      $("#foot").load("footer.html");
+    });
+    $(function(){
+      const CURR_YEAR = (new Date()).getFullYear();
+      $("#copyright-container").text('Copyright © ' + CURR_YEAR + ' Ben Weese');
+    });
+  </script>
+</footer>
+
+</html>

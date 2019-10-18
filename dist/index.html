@@ -1,21 +1,18 @@
-<link href="StyleSheet.css" rel="stylesheet" type="text/css">
+<link href="css/StyleSheet.css" rel="stylesheet" type="text/css">
 
 <!DOCTYPE html>
 <html>
 
 <head>
-  <title>Ben Weese.Dev</title>
+  <title id="title">Ben Weese.Dev</title>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/index.js"></script>
 </head>
 
 <header>
   <h1>Welcome to Ben Weese.Dev</h1>
   <div class="sidenav">
-    <nav role="navigation">
-        <a href="#" class="navigation-list-item">Home</a>
-        <a href="softwareTesting.html" class="navigation-list-item">Software Testing</a>
-        <a href="webmaster.html" class="navigation-list-item">Webmaster</a>
-        <a href="podcast.html" class="navigation-list-item">Podcasting</a>
-    </nav>
+    <div id="navigation"></div>
   </div>
 </header>
 
@@ -32,17 +29,10 @@
     takes you, I hope you find what you are looking for. If not check out Stack Overflow.</p>
   </div>
 </body>
+
 <footer>
-  <a href="https://www.linkedin.com/in/benweese/" target="_blank" class="img-links"><img
-    alt="linkedin link" src="icons/Linkedin.png" onmouseover="this.src='icons/linkedinhover.png'"
-    onmouseout="this.src='icons/Linkedin.png'" /></a>
-  <a href="https://www.benweese.com" target="_blank" class="img-links"><img
-    alt="resume link" src="icons/benweese.png"onmouseover="this.src='icons/benweesehover.png'"
-    onmouseout="this.src='icons/benweese.png'" /></a>
-  <a href="https://github.com/benweese" target="_blank" class="img-links"><img
-    alt="github link" src="icons/GitHub.png"onmouseover="this.src='icons/githubhover.png'"
-    onmouseout="this.src='icons/GitHub.png'" /></a>
-  <p><strong>Copyright © 2019 by Ben Weese</strong></p>
+  <div id="foot"></div>
+  <p><strong id='copyright'>Copyright ©2019 Ben Weese</strong></p>
 </footer>
 
 </html>

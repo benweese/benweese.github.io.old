@@ -1,0 +1,23 @@
+{
+  "name": "benweese.dev",
+  "version": "1.0.0",
+  "description": "This is my Github Pages",
+  "scripts": {
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benweese/benweese.github.io.git"
+  },
+  "author": "Ben Weese",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/benweese/benweese.github.io/issues"
+  },
+  "homepage": "https://benweese.dev",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http-server": "^0.11.1",
+    "jquery": "^3.4.1"
+  }
+}
