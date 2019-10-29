@@ -4,7 +4,7 @@
   font-weight: bold;
 }
 .sidenav {
-  background-color: #00adb5;
+  background-color: #ffd700;
   padding: 10px;
   width: 100%;
   margin-left: -20px;
@@ -19,7 +19,7 @@
 }
 
 .menu {
-  background-color: #00adb5;
+  background-color: #ffd700;
   margin-left: -10px;
   margin-top: 1.25em;
   text-align: center;
@@ -35,11 +35,11 @@
 }
 
 a {
-  color: #eeeeee;
+  color: #022c43;
 }
 
 a:hover {
-  color: blue;
+  color: #115173;
 }
 
 .img-links {
@@ -48,11 +48,11 @@ a:hover {
   padding: 10px;
 }
 body {
-  background-color: #393e46;
+  background-color: #115173;
 }
 header {
   text-align: center;
-  background-color: #222831;
+  background-color: #022c43;
   padding: 1.5em;
   margin: -15px;
   color: #eeeeee;
@@ -62,7 +62,7 @@ header {
 }
 footer {
   text-align: center;
-  background-color: #222831;
+  background-color: #022c43;
   padding: 0.5em;
   margin: -10px;
   color: #eeeeee;
