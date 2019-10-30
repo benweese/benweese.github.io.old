@@ -20,19 +20,11 @@
   <div class="content contact">
     <form name="contact" netlify>
     <p>
-      <label>Name<br>
-        <input type="text" id="name" name="name" placeholder="Enter Name"required/>
-      </label>
+      <input type="text" id="name" aria-label="name" name="name" minlength="2" placeholder="Enter Name *" required/>
+      <input type="email" id="email" name="email" aria-label="email" placeholder="Enter Email *" required/>
     </p>
     <p>
-      <label>Email<br>
-        <input type="email" id="email" name="email" placeholder="Enter Email"required/>
-        </label>
-    </p>
-    <p>
-      <label>Message<br>
-        <textarea name="message" id="message" placeholder="Enter a message" required></textarea>
-      </label>
+      <textarea name="message" aria-label="message" id="message" placeholder="Enter a message *" minlength="10" required></textarea>
     </p>
     <p>
       <button class="button" type="submit" id="submit"><span>Send</span></button>
