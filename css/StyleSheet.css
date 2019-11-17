@@ -51,13 +51,24 @@ a:hover {
 }
 
 input[type=text], [type=email], select {
-  width: 50%;
   padding: 12px; /* Some padding */
   border: 1px solid #ccc; /* Gray border */
   border-radius: 4px; /* Rounded borders */
   box-sizing: border-box; /* Make sure that padding and width stays in place */
   margin-top: 6px; /* Add a top margin */
   margin-bottom: 16px; /* Bottom margin */
+  width: 100%;
+}
+
+.feilds{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 25px;
+}
+
+.message{
+  display: grid;
+  grid-template-columns: auto;
 }
 
 textarea {
@@ -74,6 +85,7 @@ textarea {
 
 
 .button {
+  grid-column: 1;
   background-color: #ffd700;
   border: 2px solid black;
   border-radius: 8px;
@@ -114,9 +126,15 @@ textarea {
 }
 
 .contact {
-  display: block;
-  margin: auto;
+  display: grid;
   width: 50%;
+  grid-gap: 25px;
+  margin: auto;
+}
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr . 1fr;
+  padding: 50px;
 }
 .contact input:required, textarea:required {
   border-color: palegreen;
